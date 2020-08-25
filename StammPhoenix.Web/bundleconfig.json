@@ -28,9 +28,9 @@
   {
     "outputFileName": "wwwroot/css/bundle.min.css",
     "inputFiles": [
-      "wwwroot/css/bootstrap.css",
-      "wwwroot/css/bootstrap-grid.css",
-      "wwwroot/css/bootstrap-reboot.css",
+      "wwwroot/css/bootstrap.min.css",
+      "wwwroot/css/bootstrap-grid.min.css",
+      "wwwroot/css/bootstrap-reboot.min.css",
       "wwwroot/css/site.css"
     ],
     "minify": {
@@ -40,9 +40,9 @@
   {
     "outputFileName": "wwwroot/js/bundle.min.js",
     "inputFiles": [
-      "wwwroot/js/bootstrap.js",
-      "wwwroot/js/jquery-3.5.1.js",
-      "wwwroot/js/popper.js",
+      "wwwroot/js/bootstrap.min.js",
+      "wwwroot/js/jquery-3.5.1.min.js",
+      "wwwroot/js/popper.min.js",
       "wwwroot/js/site.js"
     ],
     "minify": {
