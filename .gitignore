@@ -2,3 +2,6 @@
 _Resharper.Caches
 bin
 obj
+
+*/wwwroot/css/site.min.css
+*/wwwroot/js/site.min.js
