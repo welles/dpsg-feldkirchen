@@ -1,6 +1,32 @@
 ﻿[
   {
-    "outputFileName": "wwwroot/css/site.min.css",
+    "outputFileName": "wwwroot/css/bundle.css",
+    "inputFiles": [
+      "wwwroot/css/bootstrap.css",
+      "wwwroot/css/bootstrap-grid.css",
+      "wwwroot/css/bootstrap-reboot.css",
+      "wwwroot/css/site.css"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle.js",
+    "inputFiles": [
+      "wwwroot/js/bootstrap.js",
+      "wwwroot/js/jquery-3.5.1.js",
+      "wwwroot/js/popper.js",
+      "wwwroot/js/site.js"
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/css/bundle.min.css",
     "inputFiles": [
       "wwwroot/css/bootstrap.css",
       "wwwroot/css/bootstrap-grid.css",
@@ -12,7 +38,7 @@
     }
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    "outputFileName": "wwwroot/js/bundle.min.js",
     "inputFiles": [
       "wwwroot/js/bootstrap.js",
       "wwwroot/js/jquery-3.5.1.js",
@@ -23,6 +49,6 @@
       "enabled": true,
       "renameLocals": true
     },
-    "sourceMap": false
+    "sourceMap": true
   }
 ]
