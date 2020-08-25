@@ -15,7 +15,7 @@
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
       "wwwroot/js/bootstrap.js",
-      "wwwroot/js/jquery-{version}.js",
+      "wwwroot/js/jquery-3.5.1.js",
       "wwwroot/js/popper.js",
       "wwwroot/js/site.js"
     ],
