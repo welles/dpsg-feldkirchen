@@ -5,7 +5,7 @@ namespace StammPhoenix.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IWebHostEnvironment _environment;
+        private readonly IWebHostEnvironment _environment;
 
         public HomeController(IWebHostEnvironment environment)
         {
